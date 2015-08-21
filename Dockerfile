@@ -1,4 +1,6 @@
 FROM michilu/fedora-zero
+ENV \
+  LC_CTYPE="en_US.utf8"
 RUN yum install -y \
   findutils \
   git \
